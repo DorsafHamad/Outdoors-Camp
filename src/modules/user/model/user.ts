@@ -14,13 +14,9 @@ export class User extends UserBase {
   @Prop() password: string;
   @Prop() adress: string;
   @Prop() phone: string;
-  @Prop() cvLink: string;
   @Prop() photo: string;
   @Prop() logo: string;
-  @Prop() matFiscal: string;
-  @Prop() birthdate: Date;
-  @Prop() accountType: string;
-  @Prop() jobtitle: string;
+  
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
